@@ -33,7 +33,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -48,11 +48,13 @@
 	</dependencies>
 	<repositories>
     ...
+    <distributionManagement>
     <repository>
         <id>nexus-releases</id>
         <name>nexus</name>
         <url>http://3.88.252.83:8081/nexus/content/repositories/SAMPLE11/</url>
     </repository>
+ </distributionManagement>
     ...
 </repositories>
 	
