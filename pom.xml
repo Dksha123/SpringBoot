@@ -46,17 +46,7 @@
                 </dependency>
 		
 	</dependencies>
-	<distributionManagement>
-		<repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://3.88.252.83:8081/nexus/content/repositories/990/</url>
-        </repository>
-  		<snapshotRepository>
-    			<id>nexus</id>
-    			<url>http://3.88.252.83:8081/nexus/content/repositories/uc3/</url>
-  		</snapshotRepository>
-	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
