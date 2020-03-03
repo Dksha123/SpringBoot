@@ -47,16 +47,15 @@
 		
 	</dependencies>
 	<repositories>
-    ...
-    <distributionManagement>
+     </repositories>
+	
+<distributionManagement>
     <repository>
         <id>nexus-releases</id>
         <name>nexus</name>
         <url>http://3.88.252.83:8081/nexus/content/repositories/SAMPLE11/</url>
     </repository>
  </distributionManagement>
-    ...
-</repositories>
 	
 	<build>
 		<plugins>
